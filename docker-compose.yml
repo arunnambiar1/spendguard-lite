@@ -1,0 +1,12 @@
+services:
+  api:
+    build: ./src/api
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src/api:/usr/src/app      # hot‑reload during dev
+
+  analytics:
+    build: ./analytics
+    ports:
+      - "8000:8000"
