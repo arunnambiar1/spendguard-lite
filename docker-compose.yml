@@ -5,6 +5,7 @@ services:
       - "3000:3000"
     volumes:
       - ./src/api:/usr/src/app      # hot‑reload during dev
+      - /usr/src/app/node_modules
 
   analytics:
     build: ./analytics
