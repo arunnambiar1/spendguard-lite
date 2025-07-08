@@ -1,6 +1,13 @@
-/* ---- 1  Core imports ---- */
+/* ---- 1  Core imports ---- */
 const express = require('express');
-const app     = express();
+const cors    = require('cors');
+const app     = express();          // <-- app AFTER we have express()
+
+
+app.use(cors({
+  origin: 'http://localhost:5173'   // allow your Vite dev server
+}));
+
 
 /* ---- 2  Middleware ---- */
 app.use(express.json());
@@ -74,6 +81,8 @@ app.get('/alerts', (_req, res) => {
     }
   );
 });
+
+
 
 /* ---- 5  Start server ---- */
 const PORT = process.env.PORT || 3000;

@@ -4,10 +4,13 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./src/api:/usr/src/app      # hot‑reload during dev
-      - /usr/src/app/node_modules
+      - ./src/api:/usr/src/app                        # your code
+      - api_node_modules:/usr/src/app/node_modules    # preserve image’s node_modules
 
   analytics:
     build: ./analytics
     ports:
       - "8000:8000"
+
+volumes:
+  api_node_modules: {}
