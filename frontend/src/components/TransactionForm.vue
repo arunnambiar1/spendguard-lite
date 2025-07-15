@@ -61,6 +61,8 @@
   const amount   = ref(null)
   const postedAt = ref('')
   const score    = ref(null)
+  const loading  = ref(false)
+  const errorMsg = ref('')
 
   const emit = defineEmits(['saved'])
   const API  = import.meta.env.VITE_API_URL
@@ -79,8 +81,11 @@
     const res = await axios.post(`${API}/transactions`, payload)
     score.value = res.data.score
     emit('saved')
+    userId.value = category.value = amount.value = postedAt.value = ''
   } catch (err) {
     console.error('Submit failed:', err)
+    } finally {
+      loading.value = false
     }
   }
 

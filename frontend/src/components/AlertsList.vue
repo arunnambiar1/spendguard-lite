@@ -1,36 +1,28 @@
 <template>
   <div class="list alerts-list">
     <h2>Alerts</h2>
-    <ul>
-      <li v-for="a in alerts" :key="a.id">
-        <span class="time">{{ a.created_at }}</span> —
-        <span class="category">{{ a.category }}</span>
-        spike! Score:
-        <span class="score">{{ a.score.toFixed(2) }}</span>
+
+    <p v-if="error">{{ error }}</p>
+    <p v-else-if="!data.length">No alerts yet</p>
+
+    <u1 v-else>
+      <li v-for="a1 in data" :key="a1.id">
+        <strong>{{ formatDate(al.created_at) }}</strong> - 
+        {{ al.category }} spike! Score: <span class="score">{{ al.score.toFixed(2) }}</span>
       </li>
-    </ul>
-    <button @click="fetchAlerts">Refresh</button>
+    </u1>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
-import axios from 'axios'
-
-const API = import.meta.env.VITE_API_URL
-const alerts = ref([])
-
-async function fetchAlerts() {
-  try {
-    const res = await axios.get(`${API}/alerts`)
-    alerts.value = res.data
-  } catch (e) {
-    console.error('Failed to load alerts:', e)
+const props = defineProps({
+  data: { type: Array, default: () => [],
+  error: { type: String, default: null }
   }
+})
+function formatDate (iso) {
+  return iso ? new Date(iso).toLocaleString() : '-'
 }
-
-// Load on mount
-onMounted(fetchAlerts)
 </script>
 
 <style scoped>
