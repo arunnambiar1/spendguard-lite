@@ -1,0 +1,16 @@
+// frontend/tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "preserve",
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue"],
+  "vueCompilerOptions": {
+    // prevents Volar's “write global types file” step
+    "globalTypesPath": ""
+  }
+}

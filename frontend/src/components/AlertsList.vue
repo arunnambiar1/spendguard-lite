@@ -1,42 +1,54 @@
-<template>
-  <div class="list alerts-list">
-    <h2>Alerts</h2>
-
-    <p v-if="error">{{ error }}</p>
-    <p v-else-if="!data.length">No alerts yet</p>
-
-    <u1 v-else>
-      <li v-for="a1 in data" :key="a1.id">
-        <strong>{{ formatDate(al.created_at) }}</strong> - 
-        {{ al.category }} spike! Score: <span class="score">{{ al.score.toFixed(2) }}</span>
-      </li>
-    </u1>
-  </div>
-</template>
-
+<!-- src/components/AlertsList.vue -->
 <script setup>
+
 const props = defineProps({
-  data: { type: Array, default: () => [],
-  error: { type: String, default: null }
+  data: {
+    type: Array,
+    default: () => []
+  },
+  loading: {
+    type: Boolean,
+    default: false
+  },
+  error: {
+    type: String,
+    default: null
+  },
+  // if you have a refresh button handler:
+  refresh: {
+    type: Function,
+    required: false
   }
 })
-function formatDate (iso) {
-  return iso ? new Date(iso).toLocaleString() : '-'
-}
 </script>
 
-<style scoped>
-.alerts-list {
-  border: 1px solid #f99;
-  padding: 1rem;
-  border-radius: 4px;
-}
-.alerts-list li {
-  margin: 0.5rem 0;
-  color: #c00;
-}
-.alerts-list button {
-  margin-top: 1rem;
-  padding: 0.5rem;
-}
-</style>
+<template>
+  <div class="card" style="margin-top:2rem">
+    <h2>Alerts</h2>
+
+    <!-- 1. loading state -->
+    <p v-if="props.loading">Loading alerts…</p>
+
+    <!-- 2. error state -->
+    <p v-else-if="props.error" class="text-red-500">
+      {{ props.error }}
+    </p>
+
+    <!-- 3. no-data -->
+    <p v-else-if="props.data.length === 0">
+      No alerts yet.
+    </p>
+
+    <!-- 4. actual list -->
+    <ul v-else>
+      <li v-for="alert in props.data" :key="alert.id">
+        {{ alert.category }} – ${{ Number(alert.amount).toFixed(2) }}
+      </li>
+    </ul>
+
+    <!-- 5. manual refresh -->
+    <button v-if="props.refresh" @click="props.refresh">
+      Refresh
+    </button>
+  </div>
+</template>

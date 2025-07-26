@@ -1,23 +1,34 @@
 <template>
   <div class="list transactions-list">
     <h2>Transactions</h2>
-    
-    <p v-if="error">{{ error }}</p>
-    <p v-else-if="!data.length">No transactions yet.</p>
 
-    <u1 v-else>
+    <!--Loading? -->
+    <div v-if="loading" class="loading">Loading transactions…</div>
+
+    <!--Error? -->
+    <div v-else-if="error" class="error">{{ error }}</div>
+
+    <!--Nothing to show? -->
+    <div v-else-if="!data.length" class="empty">No transactions yet.</div>
+
+    <!--Real data -->
+    <ul v-else>
       <li v-for="tx in data" :key="tx.id">
-        <strong>{{ formatDate(tx.posted_at) }}</strong> -
-        {{ tx.category }}:
-        ${{ Number(tx.amount).toFixed(2) }}
+        <strong>{{ new Date(tx.posted_at).toLocaleString() }}</strong>
+        &nbsp;—&nbsp;
+        <span>${{ Number(tx.amount).toFixed(2) }}</span>
       </li>
-    </u1>
+    </ul>
+
+    <!--Let parent re-fetch -->
+    <button @click="$emit('refresh')">Refresh</button>
   </div>
 </template>
 
 <script setup>
 const props = defineProps({
   data: { type: Array, default: () => []},
+  loading: { type: Boolean, default: false},
   error: { type: String, default: null}
 })
 
