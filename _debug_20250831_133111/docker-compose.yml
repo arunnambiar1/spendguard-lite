@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: spend
+      POSTGRES_PASSWORD: spendpass
+      POSTGRES_DB: spendguard
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  api:
+    build: ./api      # ← was ./src/api
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgresql://spend:spendpass@db:5432/spendguard
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./api:/usr/src/app
+      - api_node_modules:/usr/src/app/node_modules
+
+  analytics:
+    build: ./analytics
+    ports:
+      - "8000:8000"
+
+volumes:
+  api_node_modules: {}
+  pgdata: {}

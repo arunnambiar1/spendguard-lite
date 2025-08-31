@@ -1,0 +1,20 @@
+=== PORT HEALTH ===
+
+--- http://127.0.0.1:3000/health ---
+ERROR: The operation has timed out.
+
+--- http://127.0.0.1:3001/health ---
+ERROR: The operation has timed out.
+
+--- http://127.0.0.1:3002/health ---
+ERROR: The operation has timed out.
+
+--- http://127.0.0.1:3003/health ---
+ERROR: The operation has timed out.
+
+=== LISTENERS 3000-3003 ===
+
+
+=== VERSIONS ===
+node: v22.17.0
+npm:  10.9.2
