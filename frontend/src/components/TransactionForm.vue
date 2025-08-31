@@ -1,9 +1,11 @@
 <template>
   <form @submit.prevent="onSubmit" class="card">
+    <!-- REMOVE THIS BLOCK:
     <div>
       <label>User ID:</label>
       <input v-model="userId" placeholder="Enter your user ID" required />
     </div>
+    -->
     <div>
       <label>Category:</label>
       <input v-model="category" placeholder="e.g. Dining" required />
@@ -25,13 +27,11 @@
 import { ref } from 'vue'
 import axios     from 'axios'
 
-// form fields
-const userId   = ref('')
+// REMOVE: const userId   = ref('')
 const category = ref('')
 const amount   = ref(0)
 const postedAt = ref('')
 
-// result
 const score   = ref(null)
 const loading = ref(false)
 
@@ -41,7 +41,7 @@ const API  = import.meta.env.VITE_API_URL || 'http://localhost:3000'
 async function onSubmit() {
   loading.value = true
   const payload = {
-    user_id:   userId.value,
+    // REMOVE: user_id:   userId.value,
     category:  category.value,
     amount:    amount.value,
     posted_at: postedAt.value
@@ -52,7 +52,8 @@ async function onSubmit() {
     score.value = r.data.score
     emit('saved')        
     // reset the form
-    userId.value = category.value = postedAt.value = ''
+    // REMOVE: userId.value = 
+    category.value = postedAt.value = ''
     amount.value = 0
   } catch (e) {
     console.error(e)

@@ -1,0 +1,1716 @@
+Folder PATH listing for volume OS
+Volume serial number is 5A1D-5D6D
+C:\DEV\SPENDGUARD-LITE\API
+ª   alerts.js
+ª   auth.js
+ª   db.js
+ª   Dockerfile
+ª   index.js
+ª   package-lock.json
+ª   package.json
+ª   transactions.js
+ª   
++---node_modules
+    ª   .package-lock.json
+    ª   
+    +---.bin
+    ª       mime
+    ª       mime.cmd
+    ª       mime.ps1
+    ª       node-gyp-build
+    ª       node-gyp-build-optional
+    ª       node-gyp-build-optional.cmd
+    ª       node-gyp-build-optional.ps1
+    ª       node-gyp-build-test
+    ª       node-gyp-build-test.cmd
+    ª       node-gyp-build-test.ps1
+    ª       node-gyp-build.cmd
+    ª       node-gyp-build.ps1
+    ª       nodemon
+    ª       nodemon.cmd
+    ª       nodemon.ps1
+    ª       nodetouch
+    ª       nodetouch.cmd
+    ª       nodetouch.ps1
+    ª       semver
+    ª       semver.cmd
+    ª       semver.ps1
+    ª       
+    +---accepts
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---anymatch
+    ª       index.d.ts
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---array-flatten
+    ª       array-flatten.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---balanced-match
+    ª   ª   index.js
+    ª   ª   LICENSE.md
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---.github
+    ª           FUNDING.yml
+    ª           
+    +---bcrypt
+    ª   ª   .dockerignore
+    ª   ª   .editorconfig
+    ª   ª   bcrypt.js
+    ª   ª   binding.gyp
+    ª   ª   build-all.sh
+    ª   ª   CHANGELOG.md
+    ª   ª   Dockerfile
+    ª   ª   Dockerfile-alpine
+    ª   ª   ISSUE_TEMPLATE.md
+    ª   ª   LICENSE
+    ª   ª   Makefile
+    ª   ª   package.json
+    ª   ª   promises.js
+    ª   ª   README.md
+    ª   ª   SECURITY.md
+    ª   ª   
+    ª   +---.github
+    ª   ª   +---workflows
+    ª   ª           build-pack-publish.yml
+    ª   ª           ci.yaml
+    ª   ª           
+    ª   +---examples
+    ª   ª       async_compare.js
+    ª   ª       forever_gen_salt.js
+    ª   ª       
+    ª   +---prebuilds
+    ª   ª   +---darwin-arm64
+    ª   ª   ª       bcrypt.node
+    ª   ª   ª       
+    ª   ª   +---darwin-x64
+    ª   ª   ª       bcrypt.node
+    ª   ª   ª       
+    ª   ª   +---linux-arm
+    ª   ª   ª       bcrypt.glibc.node
+    ª   ª   ª       bcrypt.musl.node
+    ª   ª   ª       
+    ª   ª   +---linux-arm64
+    ª   ª   ª       bcrypt.glibc.node
+    ª   ª   ª       bcrypt.musl.node
+    ª   ª   ª       
+    ª   ª   +---linux-x64
+    ª   ª   ª       bcrypt.glibc.node
+    ª   ª   ª       bcrypt.musl.node
+    ª   ª   ª       
+    ª   ª   +---win32-arm64
+    ª   ª   ª       bcrypt.node
+    ª   ª   ª       
+    ª   ª   +---win32-x64
+    ª   ª           bcrypt.node
+    ª   ª           
+    ª   +---src
+    ª   ª       bcrypt.cc
+    ª   ª       bcrypt_node.cc
+    ª   ª       blowfish.cc
+    ª   ª       node_blf.h
+    ª   ª       
+    ª   +---test
+    ª           async.test.js
+    ª           implementation.test.js
+    ª           promise.test.js
+    ª           repetitions.test.js
+    ª           sync.test.js
+    ª           
+    +---binary-extensions
+    ª       binary-extensions.json
+    ª       binary-extensions.json.d.ts
+    ª       index.d.ts
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---body-parser
+    ª   ª   HISTORY.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   SECURITY.md
+    ª   ª   
+    ª   +---lib
+    ª       ª   read.js
+    ª       ª   
+    ª       +---types
+    ª               json.js
+    ª               raw.js
+    ª               text.js
+    ª               urlencoded.js
+    ª               
+    +---brace-expansion
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---braces
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª           compile.js
+    ª           constants.js
+    ª           expand.js
+    ª           parse.js
+    ª           stringify.js
+    ª           utils.js
+    ª           
+    +---buffer-equal-constant-time
+    ª       .npmignore
+    ª       .travis.yml
+    ª       index.js
+    ª       LICENSE.txt
+    ª       package.json
+    ª       README.md
+    ª       test.js
+    ª       
+    +---bytes
+    ª       History.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       Readme.md
+    ª       
+    +---call-bind-apply-helpers
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   actualApply.d.ts
+    ª   ª   actualApply.js
+    ª   ª   applyBind.d.ts
+    ª   ª   applyBind.js
+    ª   ª   CHANGELOG.md
+    ª   ª   functionApply.d.ts
+    ª   ª   functionApply.js
+    ª   ª   functionCall.d.ts
+    ª   ª   functionCall.js
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   reflectApply.d.ts
+    ª   ª   reflectApply.js
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---call-bound
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---chokidar
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª   ª       constants.js
+    ª   ª       fsevents-handler.js
+    ª   ª       nodefs-handler.js
+    ª   ª       
+    ª   +---types
+    ª           index.d.ts
+    ª           
+    +---concat-map
+    ª   ª   .travis.yml
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.markdown
+    ª   ª   
+    ª   +---example
+    ª   ª       map.js
+    ª   ª       
+    ª   +---test
+    ª           map.js
+    ª           
+    +---content-disposition
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---content-type
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---cookie
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       SECURITY.md
+    ª       
+    +---cookie-signature
+    ª       .npmignore
+    ª       History.md
+    ª       index.js
+    ª       package.json
+    ª       Readme.md
+    ª       
+    +---cors
+    ª   ª   CONTRIBUTING.md
+    ª   ª   HISTORY.md
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª           index.js
+    ª           
+    +---debug
+    ª   ª   .coveralls.yml
+    ª   ª   .eslintrc
+    ª   ª   .npmignore
+    ª   ª   .travis.yml
+    ª   ª   CHANGELOG.md
+    ª   ª   component.json
+    ª   ª   karma.conf.js
+    ª   ª   LICENSE
+    ª   ª   Makefile
+    ª   ª   node.js
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---src
+    ª           browser.js
+    ª           debug.js
+    ª           index.js
+    ª           inspector-log.js
+    ª           node.js
+    ª           
+    +---depd
+    ª   ª   History.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   Readme.md
+    ª   ª   
+    ª   +---lib
+    ª       +---browser
+    ª               index.js
+    ª               
+    +---destroy
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---dunder-proto
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   get.d.ts
+    ª   ª   get.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   set.d.ts
+    ª   ª   set.js
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           get.js
+    ª           index.js
+    ª           set.js
+    ª           
+    +---ecdsa-sig-formatter
+    ª   ª   CODEOWNERS
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---src
+    ª           ecdsa-sig-formatter.d.ts
+    ª           ecdsa-sig-formatter.js
+    ª           param-bytes-for-alg.js
+    ª           
+    +---ee-first
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---encodeurl
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---es-define-property
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---es-errors
+    ª   ª   .eslintrc
+    ª   ª   CHANGELOG.md
+    ª   ª   eval.d.ts
+    ª   ª   eval.js
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   range.d.ts
+    ª   ª   range.js
+    ª   ª   README.md
+    ª   ª   ref.d.ts
+    ª   ª   ref.js
+    ª   ª   syntax.d.ts
+    ª   ª   syntax.js
+    ª   ª   tsconfig.json
+    ª   ª   type.d.ts
+    ª   ª   type.js
+    ª   ª   uri.d.ts
+    ª   ª   uri.js
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---es-object-atoms
+    ª   ª   .eslintrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   isObject.d.ts
+    ª   ª   isObject.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   RequireObjectCoercible.d.ts
+    ª   ª   RequireObjectCoercible.js
+    ª   ª   ToObject.d.ts
+    ª   ª   ToObject.js
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---escape-html
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       Readme.md
+    ª       
+    +---etag
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---express
+    ª   ª   History.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   Readme.md
+    ª   ª   
+    ª   +---lib
+    ª       ª   application.js
+    ª       ª   express.js
+    ª       ª   request.js
+    ª       ª   response.js
+    ª       ª   utils.js
+    ª       ª   view.js
+    ª       ª   
+    ª       +---middleware
+    ª       ª       init.js
+    ª       ª       query.js
+    ª       ª       
+    ª       +---router
+    ª               index.js
+    ª               layer.js
+    ª               route.js
+    ª               
+    +---fill-range
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---finalhandler
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       SECURITY.md
+    ª       
+    +---forwarded
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---fresh
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---function-bind
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   implementation.js
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       SECURITY.md
+    ª   ª       
+    ª   +---test
+    ª           .eslintrc
+    ª           index.js
+    ª           
+    +---get-intrinsic
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           GetIntrinsic.js
+    ª           
+    +---get-proto
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   Object.getPrototypeOf.d.ts
+    ª   ª   Object.getPrototypeOf.js
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   Reflect.getPrototypeOf.d.ts
+    ª   ª   Reflect.getPrototypeOf.js
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---glob-parent
+    ª       CHANGELOG.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---gopd
+    ª   ª   .eslintrc
+    ª   ª   CHANGELOG.md
+    ª   ª   gOPD.d.ts
+    ª   ª   gOPD.js
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---has-flag
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---has-symbols
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   shams.d.ts
+    ª   ª   shams.js
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª       ª   index.js
+    ª       ª   tests.js
+    ª       ª   
+    ª       +---shams
+    ª               core-js.js
+    ª               get-own-property-symbols.js
+    ª               
+    +---hasown
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª           FUNDING.yml
+    ª           
+    +---http-errors
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---iconv-lite
+    ª   ª   Changelog.md
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---encodings
+    ª   ª   ª   dbcs-codec.js
+    ª   ª   ª   dbcs-data.js
+    ª   ª   ª   index.js
+    ª   ª   ª   internal.js
+    ª   ª   ª   sbcs-codec.js
+    ª   ª   ª   sbcs-data-generated.js
+    ª   ª   ª   sbcs-data.js
+    ª   ª   ª   utf16.js
+    ª   ª   ª   utf7.js
+    ª   ª   ª   
+    ª   ª   +---tables
+    ª   ª           big5-added.json
+    ª   ª           cp936.json
+    ª   ª           cp949.json
+    ª   ª           cp950.json
+    ª   ª           eucjp.json
+    ª   ª           gb18030-ranges.json
+    ª   ª           gbk-added.json
+    ª   ª           shiftjis.json
+    ª   ª           
+    ª   +---lib
+    ª           bom-handling.js
+    ª           extend-node.js
+    ª           index.d.ts
+    ª           index.js
+    ª           streams.js
+    ª           
+    +---ignore-by-default
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---inherits
+    ª       inherits.js
+    ª       inherits_browser.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---ipaddr.js
+    ª   ª   ipaddr.min.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª           ipaddr.js
+    ª           ipaddr.js.d.ts
+    ª           
+    +---is-binary-path
+    ª       index.d.ts
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---is-extglob
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---is-glob
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---is-number
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---jsonwebtoken
+    ª   ª   decode.js
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   sign.js
+    ª   ª   verify.js
+    ª   ª   
+    ª   +---lib
+    ª   ª       asymmetricKeyDetailsSupported.js
+    ª   ª       JsonWebTokenError.js
+    ª   ª       NotBeforeError.js
+    ª   ª       psSupported.js
+    ª   ª       rsaPssKeyDetailsSupported.js
+    ª   ª       timespan.js
+    ª   ª       TokenExpiredError.js
+    ª   ª       validateAsymmetricKey.js
+    ª   ª       
+    ª   +---node_modules
+    ª       +---ms
+    ª               index.js
+    ª               license.md
+    ª               package.json
+    ª               readme.md
+    ª               
+    +---jwa
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---jws
+    ª   ª   CHANGELOG.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   readme.md
+    ª   ª   
+    ª   +---lib
+    ª           data-stream.js
+    ª           sign-stream.js
+    ª           tostring.js
+    ª           verify-stream.js
+    ª           
+    +---lodash.includes
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---lodash.isboolean
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---lodash.isinteger
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---lodash.isnumber
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---lodash.isplainobject
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---lodash.isstring
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---lodash.once
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---math-intrinsics
+    ª   ª   .eslintrc
+    ª   ª   abs.d.ts
+    ª   ª   abs.js
+    ª   ª   CHANGELOG.md
+    ª   ª   floor.d.ts
+    ª   ª   floor.js
+    ª   ª   isFinite.d.ts
+    ª   ª   isFinite.js
+    ª   ª   isInteger.d.ts
+    ª   ª   isInteger.js
+    ª   ª   isNaN.d.ts
+    ª   ª   isNaN.js
+    ª   ª   isNegativeZero.d.ts
+    ª   ª   isNegativeZero.js
+    ª   ª   LICENSE
+    ª   ª   max.d.ts
+    ª   ª   max.js
+    ª   ª   min.d.ts
+    ª   ª   min.js
+    ª   ª   mod.d.ts
+    ª   ª   mod.js
+    ª   ª   package.json
+    ª   ª   pow.d.ts
+    ª   ª   pow.js
+    ª   ª   README.md
+    ª   ª   round.d.ts
+    ª   ª   round.js
+    ª   ª   sign.d.ts
+    ª   ª   sign.js
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---constants
+    ª   ª       maxArrayLength.d.ts
+    ª   ª       maxArrayLength.js
+    ª   ª       maxSafeInteger.d.ts
+    ª   ª       maxSafeInteger.js
+    ª   ª       maxValue.d.ts
+    ª   ª       maxValue.js
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---media-typer
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---merge-descriptors
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---methods
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---mime
+    ª   ª   .npmignore
+    ª   ª   CHANGELOG.md
+    ª   ª   cli.js
+    ª   ª   LICENSE
+    ª   ª   mime.js
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   types.json
+    ª   ª   
+    ª   +---src
+    ª           build.js
+    ª           test.js
+    ª           
+    +---mime-db
+    ª       db.json
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---mime-types
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---minimatch
+    ª       LICENSE
+    ª       minimatch.js
+    ª       package.json
+    ª       README.md
+    ª       
+    +---ms
+    ª       index.js
+    ª       license.md
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---negotiator
+    ª   ª   HISTORY.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª           charset.js
+    ª           encoding.js
+    ª           language.js
+    ª           mediaType.js
+    ª           
+    +---node-addon-api
+    ª   ª   common.gypi
+    ª   ª   except.gypi
+    ª   ª   index.js
+    ª   ª   LICENSE.md
+    ª   ª   napi-inl.deprecated.h
+    ª   ª   napi-inl.h
+    ª   ª   napi.h
+    ª   ª   node_addon_api.gyp
+    ª   ª   node_api.gyp
+    ª   ª   noexcept.gypi
+    ª   ª   nothing.c
+    ª   ª   package-support.json
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---tools
+    ª           check-napi.js
+    ª           clang-format.js
+    ª           conversion.js
+    ª           README.md
+    ª           
+    +---node-gyp-build
+    ª       bin.js
+    ª       build-test.js
+    ª       index.js
+    ª       LICENSE
+    ª       node-gyp-build.js
+    ª       optional.js
+    ª       package.json
+    ª       README.md
+    ª       SECURITY.md
+    ª       
+    +---nodemon
+    ª   ª   .prettierrc.json
+    ª   ª   index.d.ts
+    ª   ª   jsconfig.json
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---bin
+    ª   ª       nodemon.js
+    ª   ª       windows-kill.exe
+    ª   ª       
+    ª   +---doc
+    ª   ª   +---cli
+    ª   ª           authors.txt
+    ª   ª           config.txt
+    ª   ª           help.txt
+    ª   ª           logo.txt
+    ª   ª           options.txt
+    ª   ª           topics.txt
+    ª   ª           usage.txt
+    ª   ª           whoami.txt
+    ª   ª           
+    ª   +---lib
+    ª   ª   ª   index.js
+    ª   ª   ª   nodemon.js
+    ª   ª   ª   spawn.js
+    ª   ª   ª   version.js
+    ª   ª   ª   
+    ª   ª   +---cli
+    ª   ª   ª       index.js
+    ª   ª   ª       parse.js
+    ª   ª   ª       
+    ª   ª   +---config
+    ª   ª   ª       command.js
+    ª   ª   ª       defaults.js
+    ª   ª   ª       exec.js
+    ª   ª   ª       index.js
+    ª   ª   ª       load.js
+    ª   ª   ª       
+    ª   ª   +---help
+    ª   ª   ª       index.js
+    ª   ª   ª       
+    ª   ª   +---monitor
+    ª   ª   ª       index.js
+    ª   ª   ª       match.js
+    ª   ª   ª       run.js
+    ª   ª   ª       signals.js
+    ª   ª   ª       watch.js
+    ª   ª   ª       
+    ª   ª   +---rules
+    ª   ª   ª       add.js
+    ª   ª   ª       index.js
+    ª   ª   ª       parse.js
+    ª   ª   ª       
+    ª   ª   +---utils
+    ª   ª           bus.js
+    ª   ª           clone.js
+    ª   ª           colour.js
+    ª   ª           index.js
+    ª   ª           log.js
+    ª   ª           merge.js
+    ª   ª           
+    ª   +---node_modules
+    ª       +---debug
+    ª       ª   ª   LICENSE
+    ª       ª   ª   package.json
+    ª       ª   ª   README.md
+    ª       ª   ª   
+    ª       ª   +---src
+    ª       ª           browser.js
+    ª       ª           common.js
+    ª       ª           index.js
+    ª       ª           node.js
+    ª       ª           
+    ª       +---ms
+    ª               index.js
+    ª               license.md
+    ª               package.json
+    ª               readme.md
+    ª               
+    +---normalize-path
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---object-assign
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---object-inspect
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package-support.json
+    ª   ª   package.json
+    ª   ª   readme.markdown
+    ª   ª   test-core-js.js
+    ª   ª   util.inspect.js
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---example
+    ª   ª       all.js
+    ª   ª       circular.js
+    ª   ª       fn.js
+    ª   ª       inspect.js
+    ª   ª       
+    ª   +---test
+    ª       ª   bigint.js
+    ª       ª   circular.js
+    ª       ª   deep.js
+    ª       ª   element.js
+    ª       ª   err.js
+    ª       ª   fakes.js
+    ª       ª   fn.js
+    ª       ª   global.js
+    ª       ª   has.js
+    ª       ª   holes.js
+    ª       ª   indent-option.js
+    ª       ª   inspect.js
+    ª       ª   lowbyte.js
+    ª       ª   number.js
+    ª       ª   quoteStyle.js
+    ª       ª   toStringTag.js
+    ª       ª   undef.js
+    ª       ª   values.js
+    ª       ª   
+    ª       +---browser
+    ª               dom.js
+    ª               
+    +---on-finished
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---parseurl
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---path-to-regexp
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       Readme.md
+    ª       
+    +---pg
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---esm
+    ª   ª       index.mjs
+    ª   ª       
+    ª   +---lib
+    ª       ª   client.js
+    ª       ª   connection-parameters.js
+    ª       ª   connection.js
+    ª       ª   defaults.js
+    ª       ª   index.js
+    ª       ª   query.js
+    ª       ª   result.js
+    ª       ª   stream.js
+    ª       ª   type-overrides.js
+    ª       ª   utils.js
+    ª       ª   
+    ª       +---crypto
+    ª       ª       cert-signatures.js
+    ª       ª       sasl.js
+    ª       ª       utils-legacy.js
+    ª       ª       utils-webcrypto.js
+    ª       ª       utils.js
+    ª       ª       
+    ª       +---native
+    ª               client.js
+    ª               index.js
+    ª               query.js
+    ª               
+    +---pg-cloudflare
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---dist
+    ª   ª       empty.d.ts
+    ª   ª       empty.js
+    ª   ª       empty.js.map
+    ª   ª       index.d.ts
+    ª   ª       index.js
+    ª   ª       index.js.map
+    ª   ª       
+    ª   +---esm
+    ª   ª       index.mjs
+    ª   ª       
+    ª   +---src
+    ª           empty.ts
+    ª           index.ts
+    ª           types.d.ts
+    ª           
+    +---pg-connection-string
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---esm
+    ª           index.mjs
+    ª           
+    +---pg-int8
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---pg-pool
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---esm
+    ª           index.mjs
+    ª           
+    +---pg-protocol
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---dist
+    ª   ª       b.d.ts
+    ª   ª       b.js
+    ª   ª       b.js.map
+    ª   ª       buffer-reader.d.ts
+    ª   ª       buffer-reader.js
+    ª   ª       buffer-reader.js.map
+    ª   ª       buffer-writer.d.ts
+    ª   ª       buffer-writer.js
+    ª   ª       buffer-writer.js.map
+    ª   ª       inbound-parser.test.d.ts
+    ª   ª       inbound-parser.test.js
+    ª   ª       inbound-parser.test.js.map
+    ª   ª       index.d.ts
+    ª   ª       index.js
+    ª   ª       index.js.map
+    ª   ª       messages.d.ts
+    ª   ª       messages.js
+    ª   ª       messages.js.map
+    ª   ª       outbound-serializer.test.d.ts
+    ª   ª       outbound-serializer.test.js
+    ª   ª       outbound-serializer.test.js.map
+    ª   ª       parser.d.ts
+    ª   ª       parser.js
+    ª   ª       parser.js.map
+    ª   ª       serializer.d.ts
+    ª   ª       serializer.js
+    ª   ª       serializer.js.map
+    ª   ª       
+    ª   +---esm
+    ª   ª       index.js
+    ª   ª       
+    ª   +---src
+    ª       ª   b.ts
+    ª       ª   buffer-reader.ts
+    ª       ª   buffer-writer.ts
+    ª       ª   inbound-parser.test.ts
+    ª       ª   index.ts
+    ª       ª   messages.ts
+    ª       ª   outbound-serializer.test.ts
+    ª       ª   parser.ts
+    ª       ª   serializer.ts
+    ª       ª   
+    ª       +---testing
+    ª       ª       buffer-list.ts
+    ª       ª       test-buffers.ts
+    ª       ª       
+    ª       +---types
+    ª               chunky.d.ts
+    ª               
+    +---pg-types
+    ª   ª   .travis.yml
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   index.test-d.ts
+    ª   ª   Makefile
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª   ª       arrayParser.js
+    ª   ª       binaryParsers.js
+    ª   ª       builtins.js
+    ª   ª       textParsers.js
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           types.js
+    ª           
+    +---pgpass
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª           helper.js
+    ª           index.js
+    ª           
+    +---picomatch
+    ª   ª   CHANGELOG.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª           constants.js
+    ª           parse.js
+    ª           picomatch.js
+    ª           scan.js
+    ª           utils.js
+    ª           
+    +---postgres-array
+    ª       index.d.ts
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---postgres-bytea
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---postgres-date
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---postgres-interval
+    ª       index.d.ts
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---proxy-addr
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---pstree.remy
+    ª   ª   .travis.yml
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---lib
+    ª   ª       index.js
+    ª   ª       tree.js
+    ª   ª       utils.js
+    ª   ª       
+    ª   +---tests
+    ª       ª   index.test.js
+    ª       ª   
+    ª       +---fixtures
+    ª               index.js
+    ª               out1
+    ª               out2
+    ª               
+    +---qs
+    ª   ª   .editorconfig
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   LICENSE.md
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---dist
+    ª   ª       qs.js
+    ª   ª       
+    ª   +---lib
+    ª   ª       formats.js
+    ª   ª       index.js
+    ª   ª       parse.js
+    ª   ª       stringify.js
+    ª   ª       utils.js
+    ª   ª       
+    ª   +---test
+    ª           empty-keys-cases.js
+    ª           parse.js
+    ª           stringify.js
+    ª           utils.js
+    ª           
+    +---range-parser
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---raw-body
+    ª       HISTORY.md
+    ª       index.d.ts
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       SECURITY.md
+    ª       
+    +---readdirp
+    ª       index.d.ts
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---safe-buffer
+    ª       index.d.ts
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---safer-buffer
+    ª       dangerous.js
+    ª       LICENSE
+    ª       package.json
+    ª       Porting-Buffer.md
+    ª       Readme.md
+    ª       safer.js
+    ª       tests.js
+    ª       
+    +---semver
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   preload.js
+    ª   ª   range.bnf
+    ª   ª   README.md
+    ª   ª   
+    ª   +---bin
+    ª   ª       semver.js
+    ª   ª       
+    ª   +---classes
+    ª   ª       comparator.js
+    ª   ª       index.js
+    ª   ª       range.js
+    ª   ª       semver.js
+    ª   ª       
+    ª   +---functions
+    ª   ª       clean.js
+    ª   ª       cmp.js
+    ª   ª       coerce.js
+    ª   ª       compare-build.js
+    ª   ª       compare-loose.js
+    ª   ª       compare.js
+    ª   ª       diff.js
+    ª   ª       eq.js
+    ª   ª       gt.js
+    ª   ª       gte.js
+    ª   ª       inc.js
+    ª   ª       lt.js
+    ª   ª       lte.js
+    ª   ª       major.js
+    ª   ª       minor.js
+    ª   ª       neq.js
+    ª   ª       parse.js
+    ª   ª       patch.js
+    ª   ª       prerelease.js
+    ª   ª       rcompare.js
+    ª   ª       rsort.js
+    ª   ª       satisfies.js
+    ª   ª       sort.js
+    ª   ª       valid.js
+    ª   ª       
+    ª   +---internal
+    ª   ª       constants.js
+    ª   ª       debug.js
+    ª   ª       identifiers.js
+    ª   ª       lrucache.js
+    ª   ª       parse-options.js
+    ª   ª       re.js
+    ª   ª       
+    ª   +---ranges
+    ª           gtr.js
+    ª           intersects.js
+    ª           ltr.js
+    ª           max-satisfying.js
+    ª           min-satisfying.js
+    ª           min-version.js
+    ª           outside.js
+    ª           simplify.js
+    ª           subset.js
+    ª           to-comparators.js
+    ª           valid.js
+    ª           
+    +---send
+    ª   ª   HISTORY.md
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   SECURITY.md
+    ª   ª   
+    ª   +---node_modules
+    ª       +---encodeurl
+    ª       ª       HISTORY.md
+    ª       ª       index.js
+    ª       ª       LICENSE
+    ª       ª       package.json
+    ª       ª       README.md
+    ª       ª       
+    ª       +---ms
+    ª               index.js
+    ª               license.md
+    ª               package.json
+    ª               readme.md
+    ª               
+    +---serve-static
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---setprototypeof
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---test
+    ª           index.js
+    ª           
+    +---side-channel
+    ª   ª   .editorconfig
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---side-channel-list
+    ª   ª   .editorconfig
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   list.d.ts
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---side-channel-map
+    ª   ª   .editorconfig
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---side-channel-weakmap
+    ª   ª   .editorconfig
+    ª   ª   .eslintrc
+    ª   ª   .nycrc
+    ª   ª   CHANGELOG.md
+    ª   ª   index.d.ts
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   tsconfig.json
+    ª   ª   
+    ª   +---.github
+    ª   ª       FUNDING.yml
+    ª   ª       
+    ª   +---test
+    ª           index.js
+    ª           
+    +---simple-update-notifier
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---build
+    ª   ª       index.d.ts
+    ª   ª       index.js
+    ª   ª       
+    ª   +---src
+    ª           borderedText.ts
+    ª           cache.spec.ts
+    ª           cache.ts
+    ª           getDistVersion.spec.ts
+    ª           getDistVersion.ts
+    ª           hasNewVersion.spec.ts
+    ª           hasNewVersion.ts
+    ª           index.spec.ts
+    ª           index.ts
+    ª           isNpmOrYarn.ts
+    ª           types.ts
+    ª           
+    +---split2
+    ª       bench.js
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       test.js
+    ª       
+    +---statuses
+    ª       codes.json
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---supports-color
+    ª       browser.js
+    ª       index.js
+    ª       license
+    ª       package.json
+    ª       readme.md
+    ª       
+    +---to-regex-range
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---toidentifier
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---touch
+    ª   ª   index.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---bin
+    ª           nodetouch.js
+    ª           
+    +---type-is
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---undefsafe
+    ª   ª   .jscsrc
+    ª   ª   .jshintrc
+    ª   ª   .travis.yml
+    ª   ª   example.js
+    ª   ª   LICENSE
+    ª   ª   package.json
+    ª   ª   README.md
+    ª   ª   
+    ª   +---.github
+    ª   ª   +---workflows
+    ª   ª           release.yml
+    ª   ª           
+    ª   +---lib
+    ª           undefsafe.js
+    ª           
+    +---unpipe
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---utils-merge
+    ª       .npmignore
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---vary
+    ª       HISTORY.md
+    ª       index.js
+    ª       LICENSE
+    ª       package.json
+    ª       README.md
+    ª       
+    +---xtend
+            .jshintrc
+            immutable.js
+            LICENSE
+            mutable.js
+            package.json
+            README.md
+            test.js
+            
+

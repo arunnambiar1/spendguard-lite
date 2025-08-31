@@ -1,6 +1,9 @@
 import express from "express";
 import cors from "cors";
 import pool from "./db.js";
+import authRouter, { authenticate } from "./auth.js";
+import transactionsRouter from "./transactions.js";
+import alertsRouter from "./alerts.js";
 
 const app = express();
 app.use(cors());
@@ -8,6 +11,10 @@ app.use(express.json());
 
 // health check
 app.get("/health", (_req, res) => res.json({ ok: true }));
+app.use("/auth", authRouter);
+app.use(authenticate);
+app.use("/transactions", transactionsRouter);
+app.use("/alerts", alertsRouter);
 
 async function init() {
   await pool.query(`
