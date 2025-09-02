@@ -1,32 +1,41 @@
 services:
   db:
-    image: postgres:16
+    image: postgres:15
     environment:
-      POSTGRES_USER: spend
-      POSTGRES_PASSWORD: spendpass
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
       POSTGRES_DB: spendguard
-    volumes:
-      - pgdata:/var/lib/postgresql/data
     ports:
       - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d spendguard"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+    volumes:
+      - pgdata:/var/lib/postgresql/data
 
   api:
-    build: ./api      # ← was ./src/api
-    depends_on:
-      - db
+    build: ./api_py
     environment:
-      - DATABASE_URL=postgresql://spend:spendpass@db:5432/spendguard
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./api:/usr/src/app
-      - api_node_modules:/usr/src/app/node_modules
-
-  analytics:
-    build: ./analytics
+      DATABASE_URL: postgresql+psycopg://postgres:postgres@db:5432/spendguard
+      JWT_SECRET: change_me_super_secret_please
+      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+    depends_on:
+      db:
+        condition: service_healthy
     ports:
       - "8000:8000"
 
+  web:
+    build:
+      context: ./web
+      args:
+        VITE_API_URL: http://localhost:8000
+    depends_on:
+      - api
+    ports:
+      - "5173:5173"
+
 volumes:
-  api_node_modules: {}
-  pgdata: {}
+  pgdata:

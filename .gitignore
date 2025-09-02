@@ -134,3 +134,28 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# --- Node / Vite ---
+web/node_modules/
+web/dist/
+web/.vite/
+web/.env.local
+
+# --- Python ---
+api/.venv/
+api_py/.venv/
+**/__pycache__/
+*.pyc
+
+# --- Docker / Local data ---
+pgdata/
+*.log
+
+# --- Env files ---
+.env
+.env.*
+!.env.example
+
+# --- Local snapshots / archives ---
+_snap*.txt
+legacy-*/
+*.zip
